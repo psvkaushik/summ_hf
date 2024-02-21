@@ -14,8 +14,8 @@ jobs:
       - name: Add remote
         env: 
           HF: ${{secrets.HF}}
-        run: git remote add space Kaushik
+        run: git remote add space https://huggingface.co/spaces/DenjiKun/summ_hf
       - name: Push to Hub
         env:
           HF: ${{secrets.HF}}
-        run: git push --force DenjiKun
+        run: git push --force https://huggingface.co/spaces/DenjiKun/summ_hf
