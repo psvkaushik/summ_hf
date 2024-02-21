@@ -18,4 +18,4 @@ jobs:
       - name: Push to Hub
         env:
           HF: ${{secrets.HF}}
-        run: git push --force summ_hf
+        run: git push --force psvkaushik/summ_hf
